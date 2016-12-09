@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Dec 05 16:21:37 2016
+# Process ID: 1552
+# Current directory: C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6188 C:\Users\Tim\Google Drive\EECS_645\HW10_MIPS_Single_Cycle_Solution\06_MIPS_Single_Cycle\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado_project.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Tim/Google
+open_wave_config Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/simulation_sources/mips_single_cycle_wave.wcfg
+source mips_single_cycle_tb.tcl
+add_wave {{/mips_single_cycle_tb/uut/dm_i1}} 
+add_wave {{/mips_single_cycle_tb/uut/main_control_unit_i1}} 
+restart
+run 400 ns
+close_sim

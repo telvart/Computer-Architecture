@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 08 06:54:02 2016
+# Process ID: 5196
+# Current directory: C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6548 C:\Users\Tim\Google Drive\EECS_645\HW10_MIPS_Single_Cycle_Solution\06_MIPS_Single_Cycle\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado_project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj mips_single_cycle_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/incomplete/sign_extend.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sign_extend
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/incomplete/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/incomplete/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_register
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/incomplete/im_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/incomplete/dm_4byte_wide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/incomplete/alu_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/second_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Second_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/mux_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_second
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/mux_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_first
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/mips_cu_behav.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_Control_Unit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/first_shift_left_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity First_Shift_Left_2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/adder_second.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_second
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/complete/adder_first.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity adder_first
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/design_sources/incomplete/mips_single_cycle_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/simulation_sources/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mips_single_cycle_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 1b524bb44a9d49f3bfb37078b350358c --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behav of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture struct of entity xil_defaultlib.ALU_controller [alu_controller_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.DM [dm_default]
+Compiling architecture struct of entity xil_defaultlib.First_Shift_Left_2 [first_shift_left_2_default]
+Compiling architecture struct_4byte_wide of entity xil_defaultlib.IM [im_default]
+Compiling architecture struct of entity xil_defaultlib.Main_Control_Unit [main_control_unit_default]
+Compiling architecture struct of entity xil_defaultlib.PC_register [pc_register_default]
+Compiling architecture struct of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture struct of entity xil_defaultlib.Second_Shift_Left_2 [second_shift_left_2_default]
+Compiling architecture struct of entity xil_defaultlib.adder_first [adder_first_default]
+Compiling architecture struct of entity xil_defaultlib.adder_second [adder_second_default]
+Compiling architecture struct of entity xil_defaultlib.mux_first [mux_first_default]
+Compiling architecture struct of entity xil_defaultlib.mux_second [mux_second_default]
+Compiling architecture struct of entity xil_defaultlib.sign_extend [sign_extend_default]
+Compiling architecture struct of entity xil_defaultlib.mips_single_cycle [mips_single_cycle_default]
+Compiling architecture behavior of entity xil_defaultlib.mips_single_cycle_tb
+Built simulation snapshot mips_single_cycle_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tim/Google -notrace
+couldn't read file "C:/Users/Tim/Google": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 08 06:54:18 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_single_cycle_tb_behav -key {Behavioral:sim_1:Functional:mips_single_cycle_tb} -tclbatch {mips_single_cycle_tb.tcl} -view {C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/simulation_sources/mips_single_cycle_wave.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+open_wave_config C:/Users/Tim/Google
+ERROR: [Wavedata 42-2] Error while reading WCFG file 'C:/Users/Tim/Google.wcfg'.
+open_wave_config Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/simulation_sources/mips_single_cycle_wave.wcfg
+ERROR: [Wavedata 42-2] Error while reading WCFG file 'C:/Users/Tim/Google Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav/Drive/EECS_645/HW10_MIPS_Single_Cycle_Solution/06_MIPS_Single_Cycle/simulation_sources/mips_single_cycle_wave.wcfg'.
+source mips_single_cycle_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_single_cycle_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 790.645 ; gain = 0.156
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 400 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 400 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 08 07:05:40 2016...

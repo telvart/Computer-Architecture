@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Sep 15 17:40:43 2016
+# Process ID: 2300
+# Current directory: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2264 C:\Users\Tim\Google Drive\EECS 645\HW02_Resource_Sharing_Elvart\arbiter_3consumers\behavioral\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+synth_design -rtl -name rtl_1
+launch_simulation
+synth_design -rtl -name rtl_1
+launch_simulation
+refresh_design
+launch_simulation
+refresh_design
+launch_simulation
+source arbiter_behav_3consumers_tb.tcl
+close_sim

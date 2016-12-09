@@ -1,0 +1,430 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Sep 15 17:40:43 2016
+# Process ID: 2300
+# Current directory: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2264 C:\Users\Tim\Google Drive\EECS 645\HW02_Resource_Sharing_Elvart\arbiter_3consumers\behavioral\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_behav_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_behav_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_bahav_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_behav_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cf94b2b7fff3436ca4fc66eb6626caa3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_behav_3consumers_tb_behav xil_defaultlib.arbiter_behav_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit arbiter_behav_3consumers_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_behav_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_behav_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_bahav_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_behav_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cf94b2b7fff3436ca4fc66eb6626caa3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_behav_3consumers_tb_behav xil_defaultlib.arbiter_behav_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit arbiter_behav_3consumers_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_behav_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_behav_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_bahav_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_behav_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cf94b2b7fff3436ca4fc66eb6626caa3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_behav_3consumers_tb_behav xil_defaultlib.arbiter_behav_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit arbiter_behav_3consumers_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: arbiter_behav_3consumers_tb
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:46 ; elapsed = 00:28:40 . Memory (MB): peak = 881.816 ; gain = 674.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'arbiter_behav_3consumers_tb' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+INFO: [Synth 8-3491] module 'arbiter_bahav_3cons' declared at 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:5' bound to instance 'uut' of component 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+ERROR: [Synth 8-426] missing choice(s) 2'b00 in case statement [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:120]
+ERROR: [Synth 8-285] failed synthesizing module 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+ERROR: [Synth 8-285] failed synthesizing module 'arbiter_behav_3consumers_tb' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:46 ; elapsed = 00:28:41 . Memory (MB): peak = 919.582 ; gain = 712.066
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+3 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_behav_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_behav_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_bahav_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_behav_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cf94b2b7fff3436ca4fc66eb6626caa3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_behav_3consumers_tb_behav xil_defaultlib.arbiter_behav_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit arbiter_behav_3consumers_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: arbiter_behav_3consumers_tb
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:01 ; elapsed = 00:31:15 . Memory (MB): peak = 919.582 ; gain = 712.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'arbiter_behav_3consumers_tb' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+INFO: [Synth 8-3491] module 'arbiter_bahav_3cons' declared at 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:5' bound to instance 'uut' of component 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_bahav_3cons' (1#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:56]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:67]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:70]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:76]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:81]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:86]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:91]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:96]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:101]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:106]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:111]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:116]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:121]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:126]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:131]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:136]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:139]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:142]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_behav_3consumers_tb' (2#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:01 ; elapsed = 00:31:16 . Memory (MB): peak = 919.719 ; gain = 712.203
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:01 ; elapsed = 00:31:16 . Memory (MB): peak = 919.719 ; gain = 712.203
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:02:15 ; elapsed = 00:31:27 . Memory (MB): peak = 1449.320 ; gain = 1241.805
+9 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1449.320 ; gain = 529.738
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_behav_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_behav_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_bahav_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_behav_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cf94b2b7fff3436ca4fc66eb6626caa3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_behav_3consumers_tb_behav xil_defaultlib.arbiter_behav_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit arbiter_behav_3consumers_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:40 ; elapsed = 00:34:07 . Memory (MB): peak = 1449.320 ; gain = 1241.805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'arbiter_behav_3consumers_tb' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+INFO: [Synth 8-3491] module 'arbiter_bahav_3cons' declared at 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:5' bound to instance 'uut' of component 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+INFO: [Synth 8-226] default block is never used [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_bahav_3cons' (1#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:56]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:67]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:70]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:76]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:81]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:86]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:91]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:96]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:101]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:106]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:111]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:116]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:121]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:126]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:131]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:136]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:139]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:142]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_behav_3consumers_tb' (2#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:40 ; elapsed = 00:34:07 . Memory (MB): peak = 1449.320 ; gain = 1241.805
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:40 ; elapsed = 00:34:07 . Memory (MB): peak = 1449.320 ; gain = 1241.805
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_behav_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_behav_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_bahav_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_behav_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cf94b2b7fff3436ca4fc66eb6626caa3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_behav_3consumers_tb_behav xil_defaultlib.arbiter_behav_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:122]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit arbiter_behav_3consumers_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:57 ; elapsed = 00:35:30 . Memory (MB): peak = 1466.918 ; gain = 1259.402
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'arbiter_behav_3consumers_tb' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+INFO: [Synth 8-3491] module 'arbiter_bahav_3cons' declared at 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:5' bound to instance 'uut' of component 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'arbiter_bahav_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+INFO: [Synth 8-226] default block is never used [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:65]
+INFO: [Synth 8-226] default block is never used [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:122]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_bahav_3cons' (1#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd:20]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:56]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:67]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:70]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:76]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:81]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:86]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:91]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:96]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:101]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:106]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:111]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:116]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:121]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:126]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:131]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:136]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:139]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:142]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_behav_3consumers_tb' (2#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:58 ; elapsed = 00:35:30 . Memory (MB): peak = 1466.918 ; gain = 1259.402
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:58 ; elapsed = 00:35:30 . Memory (MB): peak = 1466.918 ; gain = 1259.402
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_behav_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_behav_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/design_sources/arbiter_behav_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_bahav_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/simulation_sources/arbiter_behav_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_behav_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cf94b2b7fff3436ca4fc66eb6626caa3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_behav_3consumers_tb_behav xil_defaultlib.arbiter_behav_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behav_priority of entity xil_defaultlib.arbiter_bahav_3cons [arbiter_bahav_3cons_default]
+Compiling architecture behavior of entity xil_defaultlib.arbiter_behav_3consumers_tb
+Built simulation snapshot arbiter_behav_3consumers_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tim/Google -notrace
+invalid command name "Common"
+    while executing
+"Common 17-165"
+    invoked from within
+"ERROR: [Common 17-165] Too many positional options when parsing '645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_..."
+    (file "C:/Users/Tim/Google" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 15 18:16:41 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/behavioral/vivado_project/vivado_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "arbiter_behav_3consumers_tb_behav -key {Behavioral:sim_1:Functional:arbiter_behav_3consumers_tb} -tclbatch {arbiter_behav_3consumers_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source arbiter_behav_3consumers_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'arbiter_behav_3consumers_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 15 18:25:23 2016...

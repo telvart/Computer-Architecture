@@ -1,0 +1,40 @@
+Unable to capture context for thread 7780 in process 4072, can not generate back trace
+Unable to capture context for thread 5528 in process 4072, can not generate back trace
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Unable to capture context for thread 7944 in process 4072, can not generate back trace
+Exception at PC 0x000007FEB15BBB93
+Printing stacktrace...
+
+Unable to capture context for thread 7924 in process 4072, can not generate back trace
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+[0]  [0x000007FEB15BBB93]
+[1]  [0x000007FEB15BBB93]
+[2]  [0x000007FEB15BB4A1]
+[3]  [0x000007FEB15BB3EF]
+[4]  [0x000007FEB15A19FE]
+[5]  [0x000007FEB15A0ED1]
+[6]  [0x000007FEB15A0D76]
+[7]  [0x000007FEB15479F6]
+[8]  [0x000007FEB1537AFB]
+[9]  [0x000007FEB165E90A]
+[10]  [0x000007FEB1679F87]
+[11]  [0x000007FEB167A05F]
+[12] (BaseThreadInitThunk+0xd) [0x0000000076D059CD]
+[13] (RtlUserThreadStart+0x21) [0x0000000076E3A561]
+Done
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D
+Exception at PC 0x000007FEFCD8A06D

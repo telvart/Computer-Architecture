@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Oct 05 16:46:28 2016
+# Process ID: 6084
+# Current directory: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5384 C:\Users\Tim\Google Drive\EECS_645\HW04_MIPS_Register_File_Elvart\01_MIPS_Register_File\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado_project.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/design_sources/regfile.vhd}}
+update_compile_order -fileset sources_1
+launch_simulation
+source regfile_tb.tcl
+close_sim

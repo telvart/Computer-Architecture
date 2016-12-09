@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Oct 05 16:43:15 2016
+# Process ID: 3096
+# Current directory: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5920 C:\Users\Tim\Google Drive\EECS_645\HW04_MIPS_Register_File_Elvart\01_MIPS_Register_File\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado_project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File/01_MIPS_Register_File/vivado_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 755.836 ; gain = 99.969
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 05 16:46:23 2016...

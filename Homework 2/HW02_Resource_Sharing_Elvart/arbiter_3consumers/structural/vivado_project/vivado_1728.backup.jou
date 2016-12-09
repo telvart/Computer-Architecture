@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Sep 15 18:30:07 2016
+# Process ID: 1728
+# Current directory: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8188 C:\Users\Tim\Google Drive\EECS 645\HW02_Resource_Sharing_Elvart\arbiter_3consumers\structural\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.xpr}
+update_compile_order -fileset sources_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:lte_3gpp_mimo_decoder:3.0 lte_3gpp_mimo_decoder_0
+endgroup
+delete_bd_objs [get_bd_cells lte_3gpp_mimo_decoder_0]

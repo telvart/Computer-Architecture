@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Oct 06 17:13:18 2016
+# Process ID: 5304
+# Current directory: C:/Users/Tim/Google Drive/EECS_645/Homework 5/HW05_MIPS_DM_IM_Elvart/03_MIPS_Instruction_Memory/vivado_project/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5884 C:\Users\Tim\Google Drive\EECS_645\Homework 5\HW05_MIPS_DM_IM_Elvart\03_MIPS_Instruction_Memory\vivado_project\project_2\project_2.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS_645/Homework 5/HW05_MIPS_DM_IM_Elvart/03_MIPS_Instruction_Memory/vivado_project/project_2/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS_645/Homework 5/HW05_MIPS_DM_IM_Elvart/03_MIPS_Instruction_Memory/vivado_project/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS_645/Homework 5/HW05_MIPS_DM_IM_Elvart/03_MIPS_Instruction_Memory/vivado_project/project_2/project_2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source im_tb.tcl
+add_wave {{/im_tb/uut/mem}} 
+restart
+run 1000 ns
+close_sim

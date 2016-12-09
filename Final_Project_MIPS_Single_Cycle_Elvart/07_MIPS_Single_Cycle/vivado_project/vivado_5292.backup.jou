@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 08 14:10:28 2016
+# Process ID: 5292
+# Current directory: H:/EECS_645/Final_Project_MIPS_Single_Cycle/07_MIPS_Single_Cycle/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5136 H:\EECS_645\Final_Project_MIPS_Single_Cycle\07_MIPS_Single_Cycle\vivado_project\vivado_project.xpr
+# Log file: H:/EECS_645/Final_Project_MIPS_Single_Cycle/07_MIPS_Single_Cycle/vivado_project/vivado.log
+# Journal file: H:/EECS_645/Final_Project_MIPS_Single_Cycle/07_MIPS_Single_Cycle/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_645/Final_Project_MIPS_Single_Cycle/07_MIPS_Single_Cycle/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config H:/EECS_645/Final_Project_MIPS_Single_Cycle/07_MIPS_Single_Cycle/vivado_project/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+restart
+run 40 us
+restart
+run 40 us
+close_sim
+launch_simulation
+open_wave_config H:/EECS_645/Final_Project_MIPS_Single_Cycle/07_MIPS_Single_Cycle/vivado_project/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+restart
+run 40 us
+restart
+run 40 us
+restart
+run 40 us
+close_sim
+launch_simulation
+open_wave_config H:/EECS_645/Final_Project_MIPS_Single_Cycle/07_MIPS_Single_Cycle/vivado_project/mips_single_cycle_tb_behav.wcfg
+source mips_single_cycle_tb.tcl
+restart
+run 40 us
+run 4 us
+run 4 us
+restart
+run 4 us
+restart
+run 40 us
+run 4 us
+run 4 us
+restart
+run 4 us
+run 100 us
+close_sim

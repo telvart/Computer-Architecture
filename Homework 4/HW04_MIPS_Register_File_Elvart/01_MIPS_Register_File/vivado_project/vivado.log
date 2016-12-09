@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Oct 05 16:46:28 2016
+# Process ID: 6084
+# Current directory: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5384 C:\Users\Tim\Google Drive\EECS_645\HW04_MIPS_Register_File_Elvart\01_MIPS_Register_File\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado_project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Tim/Google Drive/EECS_645/Homework 4/HW04_MIPS_Register_File/01_MIPS_Register_File/design_sources/regfile.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Tim/Google Drive/EECS_645/Homework 4/HW04_MIPS_Register_File/01_MIPS_Register_File/simulation_sources/regfile_tb_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/design_sources/regfile.vhd}}
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'regfile_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj regfile_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/design_sources/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/simulation_sources/regfile_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity regfile_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 9d557fd9a19f41a79e80650f98ad9766 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot regfile_tb_behav xil_defaultlib.regfile_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture struct of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture behavior of entity xil_defaultlib.regfile_tb
+Built simulation snapshot regfile_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tim/Google -notrace
+couldn't read file "C:/Users/Tim/Google": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 05 16:48:40 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/vivado_project/vivado_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "regfile_tb_behav -key {Behavioral:sim_1:Functional:regfile_tb} -tclbatch {regfile_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source regfile_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'regfile_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 794.430 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 05 16:49:04 2016...

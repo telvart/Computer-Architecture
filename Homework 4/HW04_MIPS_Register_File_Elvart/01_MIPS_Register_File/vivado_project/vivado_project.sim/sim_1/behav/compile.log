@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/design_sources/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegFile
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/HW04_MIPS_Register_File_Elvart/01_MIPS_Register_File/simulation_sources/regfile_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity regfile_tb

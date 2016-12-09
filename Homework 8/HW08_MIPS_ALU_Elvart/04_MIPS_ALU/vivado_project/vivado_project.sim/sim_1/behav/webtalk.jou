@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Oct 07 08:17:45 2016
+# Process ID: 5932
+# Current directory: C:/Users/Tim/Google Drive/EECS_645/Homework 8/HW08_MIPS_ALU/04_MIPS_ALU/vivado_project/vivado_project.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Tim/Google Drive/EECS_645/Homework 8/HW08_MIPS_ALU/04_MIPS_ALU/vivado_project/vivado_project.sim/sim_1/behav/xsim.dir/alu_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Tim/Google Drive/EECS_645/Homework 8/HW08_MIPS_ALU/04_MIPS_ALU/vivado_project/vivado_project.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Tim/Google Drive/EECS_645/Homework 8/HW08_MIPS_ALU/04_MIPS_ALU/vivado_project/vivado_project.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Tim/Google -notrace

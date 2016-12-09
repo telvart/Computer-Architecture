@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Sep 15 17:09:56 2016
+# Process ID: 7428
+# Current directory: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6828 C:\Users\Tim\Google Drive\EECS 645\HW02_Resource_Sharing_Elvart\arbiter_3consumers\structural\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source arbiter_struct_3consumers_tb.tcl
+add_bp {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd} 84
+remove_bps -file {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd} -line 84
+close_sim
+launch_simulation
+source arbiter_struct_3consumers_tb.tcl
+synth_design -rtl -name rtl_1
+close_sim

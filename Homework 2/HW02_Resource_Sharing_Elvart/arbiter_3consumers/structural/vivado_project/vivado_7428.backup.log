@@ -1,0 +1,222 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Sep 15 17:09:56 2016
+# Process ID: 7428
+# Current directory: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6828 C:\Users\Tim\Google Drive\EECS 645\HW02_Resource_Sharing_Elvart\arbiter_3consumers\structural\vivado_project\vivado_project.xpr
+# Log file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado.log
+# Journal file: C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 777.223 ; gain = 102.750
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_struct_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_struct_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/design_sources/arbiter_struct_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_struct_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_struct_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 714b30add5774cd0938a6583c695b7da --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_struct_3consumers_tb_behav xil_defaultlib.arbiter_struct_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture struct_priority of entity xil_defaultlib.arbiter_struct_3cons [arbiter_struct_3cons_default]
+Compiling architecture behavior of entity xil_defaultlib.arbiter_struct_3consumers_tb
+Built simulation snapshot arbiter_struct_3consumers_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tim/Google -notrace
+invalid command name "Common"
+    while executing
+"Common 17-165"
+    invoked from within
+"ERROR: [Common 17-165] Too many positional options when parsing '645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_..."
+    (file "C:/Users/Tim/Google" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 15 17:18:18 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "arbiter_struct_3consumers_tb_behav -key {Behavioral:sim_1:Functional:arbiter_struct_3consumers_tb} -tclbatch {arbiter_struct_3consumers_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source arbiter_struct_3consumers_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'arbiter_struct_3consumers_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 812.895 ; gain = 3.648
+add_bp {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd} 84
+remove_bps -file {C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd} -line 84
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'arbiter_struct_3consumers_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj arbiter_struct_3consumers_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/design_sources/arbiter_struct_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_struct_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_struct_3consumers_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 714b30add5774cd0938a6583c695b7da --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot arbiter_struct_3consumers_tb_behav xil_defaultlib.arbiter_struct_3consumers_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture struct_priority of entity xil_defaultlib.arbiter_struct_3cons [arbiter_struct_3cons_default]
+Compiling architecture behavior of entity xil_defaultlib.arbiter_struct_3consumers_tb
+Built simulation snapshot arbiter_struct_3consumers_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Tim/Google -notrace
+invalid command name "Common"
+    while executing
+"Common 17-165"
+    invoked from within
+"ERROR: [Common 17-165] Too many positional options when parsing '645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_..."
+    (file "C:/Users/Tim/Google" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 15 17:19:57 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/vivado_project/vivado_project.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "arbiter_struct_3consumers_tb_behav -key {Behavioral:sim_1:Functional:arbiter_struct_3consumers_tb} -tclbatch {arbiter_struct_3consumers_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source arbiter_struct_3consumers_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'arbiter_struct_3consumers_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: arbiter_struct_3consumers_tb
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:03:15 ; elapsed = 00:18:43 . Memory (MB): peak = 873.406 ; gain = 665.773
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'arbiter_struct_3consumers_tb' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:7]
+INFO: [Synth 8-3491] module 'arbiter_struct_3cons' declared at 'C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/design_sources/arbiter_struct_3consumers.vhd:5' bound to instance 'uut' of component 'arbiter_struct_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'arbiter_struct_3cons' [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/design_sources/arbiter_struct_3consumers.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_struct_3cons' (1#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/design_sources/arbiter_struct_3consumers.vhd:20]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:56]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:67]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:70]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:76]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:81]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:86]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:91]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:96]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:101]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:106]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:111]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:116]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:121]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:126]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:131]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:136]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:139]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:142]
+INFO: [Synth 8-256] done synthesizing module 'arbiter_struct_3consumers_tb' (2#1) [C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:03:15 ; elapsed = 00:18:43 . Memory (MB): peak = 910.766 ; gain = 703.133
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:15 ; elapsed = 00:18:44 . Memory (MB): peak = 910.766 ; gain = 703.133
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:03:31 ; elapsed = 00:19:02 . Memory (MB): peak = 1425.848 ; gain = 1218.215
+9 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1425.848 ; gain = 584.410
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 15 17:40:03 2016...

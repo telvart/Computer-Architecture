@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/Homework 8/HW08_MIPS_ALU/04_MIPS_ALU/design_sources/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/Homework 8/HW08_MIPS_ALU/04_MIPS_ALU/simulation_sources/alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_tb

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/Homework 5/HW05_MIPS_DM_IM_Elvart/02_MIPS_Data_Memory/design_sources/DM_struct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DataMem
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS_645/Homework 5/HW05_MIPS_DM_IM_Elvart/02_MIPS_Data_Memory/simulation_sources/DM_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DM_tb

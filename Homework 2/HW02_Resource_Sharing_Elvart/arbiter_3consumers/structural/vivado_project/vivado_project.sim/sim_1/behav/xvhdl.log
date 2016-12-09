@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/design_sources/arbiter_struct_3consumers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_struct_3cons
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Tim/Google Drive/EECS 645/HW02_Resource_Sharing_Elvart/arbiter_3consumers/structural/simulation_sources/arbiter_struct_3consumers_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity arbiter_struct_3consumers_tb
